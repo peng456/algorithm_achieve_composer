@@ -1,4 +1,4 @@
-# algorithm_achieve_-Composer
+# algorithm_achieve_composer
 把所有面试中的算法。都一一实现。形成一个Library。最好成为SPL。不过不大可能实现。先可以通过Composer引进吧
 
 首先 PHP SPL 中已经存在一些基础的东西。  
