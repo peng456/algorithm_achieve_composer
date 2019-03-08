@@ -26,3 +26,28 @@ PHP社区的绝大部分Composer包都托管在该网站上。Packagist提供公
 
 1、准备需要提前准备： GitHub帐号、Composer程序、Packagist帐号
 
+
+时间消耗在两个地方   
+1、github hook 触发Packagist 更新问题。  
+2、Composer 使用上。
+   如果你只是引入一个包。那么你必须自己 写 composer.json  并且 初始化它（Composer install ）
+
+Package name   包名  
+Description  描述    
+Minimum Stability    
+Package Type  类别 （库、项目、metapackage、composer-plugin 等）  
+License  开放许可  
+dependencies(require)   依赖包，这些包会被放到vendor 里面。并被autoload 自动识别    
+dev dependencies (require-dev)  开发依赖  
+version   版本  
+
+
+
+引入包  
+1、composer require peng4546/algorithm(前提是 你已经初始化了)  
+2、在composer.json  的require  中写清你要引入的包
+
+
+创建项目：  
+composer create-project --prefer-dist laravel/laravel blog
+
