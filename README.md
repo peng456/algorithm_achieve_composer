@@ -5,6 +5,9 @@
 我可以在其基础上实现。这些东西。  
 PHP语言，可以让我们工作，但是应该也可以让我们面试。
 
+项目位置： https://github.com/peng456/composer_algorithm
+
+
 1、学会如何用 composer 引入github 上代码。 
 
 1、composer 的学习 参考： https://www.jianshu.com/p/5954fe55d067
